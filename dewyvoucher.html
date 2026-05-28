@@ -48,18 +48,18 @@
           <span data-i18n="nav.welcome">Üdvözlünk</span>
         </a>
         <p class="nav-section" data-i18n="nav.pluginsBeta">Pluginek (Béta)</p>
-        <a href="dewyairdrops.html" class="nav-item" data-page="dewyairdrops">
+        <a href="dewyvoucher.html" class="nav-item" data-page="dewyvoucher">
+          <span class="nav-icon">🎫</span>
+          <span>dewyvoucher</span>
+        </a>
+        <p class="nav-section" data-i18n="nav.planned">Tervezett pluginek</p>
+        <a href="dewyairdrops.html" class="nav-item nav-muted" data-page="dewyairdrops">
           <span class="nav-icon">📦</span>
           <span>dewyairdrops</span>
         </a>
-        <a href="dewyhider.html" class="nav-item" data-page="dewyhider">
+        <a href="dewyhider.html" class="nav-item nav-muted" data-page="dewyhider">
           <span class="nav-icon">🙈</span>
           <span>dewyhider</span>
-        </a>
-        <p class="nav-section" data-i18n="nav.planned">Tervezett pluginek</p>
-        <a href="dewyvoucher.html" class="nav-item nav-muted" data-page="dewyvoucher">
-          <span class="nav-icon">🎫</span>
-          <span>dewyvoucher</span>
         </a>
         <a href="dewycrates.html" class="nav-item nav-muted" data-page="dewycrates">
           <span class="nav-icon">📦</span>
@@ -78,29 +78,34 @@
     </aside>
 
     <main class="content">
-      <nav class="breadcrumb">🎫 <span data-lang-block="hu">Tervezett / dewyvoucher</span><span data-lang-block="en" hidden>Planned / dewyvoucher</span></nav>
-      <h1 class="page-title">dewyvoucher <span class="badge badge-soon" data-i18n="plannedBadge">Tervezett</span></h1>
-      <p class="page-meta"><span data-i18n="lastModified">Utoljára módosítva</span>: <span data-lang-block="hu">2026. május 28.</span><span data-lang-block="en" hidden>May 28, 2026</span></p>
+      <nav class="breadcrumb">🎫 <span data-lang-block="hu">Béta / dewyvoucher</span><span data-lang-block="en" hidden>Beta / dewyvoucher</span></nav>
+      <h1 class="page-title">dewyvoucher <span class="badge badge-beta">Béta</span></h1>
+      <p class="page-meta"><span data-i18n="lastModified">Utoljára módosítva</span>: 2026. május 29.</p>
 
-      <div class="planned-card">
-        <div data-lang-block="hu">
-          <p><strong>dewyvoucher</strong> — kupon / voucher rendszer játékosoknak: kódok beváltása, jutalmak kiosztása. Fejlesztés alatt, dokumentáció és letöltés később érkezik.</p>
-        </div>
-        <div data-lang-block="en" hidden>
-          <p><strong>dewyvoucher</strong> — voucher / coupon system for players: redeem codes and distribute rewards. In development; docs and download coming later.</p>
-        </div>
+      <div class="alert">
+        <span class="alert-icon">⚠️</span>
+        <span>Ez a plugin béta állapotban van — egyes funkciók és beállítások változhatnak! Figyelem: A szöveges üzenetek konfigurálásánál jelenleg csak a <strong>gradient</strong> formátum támogatott.</span>
       </div>
 
-      <h2 id="status"><span data-lang-block="hu">Állapot</span><span data-lang-block="en" hidden>Status</span></h2>
-      <div data-lang-block="hu">
-        <p>Ez a plugin a roadmapon szerepel. Kövesd a <a href="https://dc.dewyofficial.hu" target="_blank" rel="noopener noreferrer">Discord</a> csatornát a hírekért.</p>
-      </div>
-      <div data-lang-block="en" hidden>
-        <p>This plugin is on our roadmap. Follow <a href="https://dc.dewyofficial.hu" target="_blank" rel="noopener noreferrer">Discord</a> for updates.</p>
-      </div>
+      <img src="dewyvoucher-spoiler1.png" alt="dewyvoucher preview 1" style="max-width: 100%; height: auto; margin-bottom: 20px;">
 
+      <h2 id="commands">Parancsok</h2>
+      <p>Alias: <code>/voucher</code>, <code>/dv</code>, <code>/vouchers</code></p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Parancs</th><th>Leírás</th></tr></thead>
+        <tbody>
+          <tr><td><code>/voucher create &lt;név&gt;</code></td><td>Új <code>vouchers/név.yml</code> létrehozása (a kézben lévő tárgy alapján)</td></tr>
+          <tr><td><code>/voucher delete &lt;név&gt;</code></td><td>Törli a fájlt és újratölti a rendszert</td></tr>
+          <tr><td><code>/voucher reload</code></td><td>Minden konfiguráció újratöltése</td></tr>
+        </tbody>
+      </table></div>
+
+      <img src="dewyvoucher-spoiler2.png" alt="dewyvoucher preview 2" style="max-width: 100%; height: auto; margin-top: 20px; margin-bottom: 20px;">
+
+      <h2 id="download">Letöltés</h2>
+      <p>A <strong>dewyvoucher</strong> jelenleg az egyetlen elérhető béta pluginunk. Hibák esetén jelezd a <a href="https://dc.dewyofficial.hu" target="_blank" rel="noopener noreferrer">Discord</a> szerverünkön!</p>
       <div class="btn-row">
-        <span class="btn btn-disabled" data-i18n="comingSoon">Hamarosan</span>
+        <a href="docs/pluginok/dewyvouchers-beta1.3.jar" download="dewyvounchers-beta1.3.jar" class="btn btn-primary">Béta letöltés (v1.3)</a>
       </div>
     </main>
 
