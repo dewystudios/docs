@@ -1,3 +1,4 @@
+>>>>>>> origin/main
 # Dewy Studios — Dokumentáció
 
 Statikus dokumentációs oldal. **Nem kell Python vagy webszerver** — elég dupla kattintással megnyitni az `index.html` fájlt.
@@ -30,3 +31,6 @@ Csak a dewyairdrops béta JAR van a mappában:
 
 - **Ctrl+K** — keresés az oldalak között
 - **HU / EN** — nyelv (localStorage-ben megmarad)
+=======
+# docs
+>>>>>>> 713810774bbdbf235904b48dab6cfc4980dd8d94
